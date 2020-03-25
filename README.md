@@ -1,5 +1,5 @@
 # MapReduce K-means
-Parallel implementation of K-means based on MapReduce using python's multiprocessing API.
+Parallel implementation of K-means based on MapReduce, using python's multiprocessing API.
 
 ### Install
 1. Clone this repository
