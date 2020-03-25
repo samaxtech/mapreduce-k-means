@@ -1,5 +1,5 @@
-# Parallel K-means
-Parallel implementation of K-means using python's multiprocessing API
+# MapReduce K-means
+Parallel implementation of K-means based on MapReduce using python's multiprocessing API.
 
 ### Install
 1. Clone this repository
@@ -11,7 +11,7 @@ Parallel implementation of K-means using python's multiprocessing API
 import numpy as np
 from models import ParallelKMeans
 
-X, y = np.arange(25).reshape((5, 5)), range(2)*2
+X, y = np.arange(25).reshape((5, 5)), np.random.randint(2, size=5)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=42)
 
 # Create a new model instance
