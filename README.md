@@ -26,8 +26,8 @@ predicted_labels = model.predict(X_test)
 
 ## Experiments
 ```experiments.py```contains a set of experiments to measure **total/iteration elapsed times** on:
-- (1) Different data sizes *N* and number of clusters *k* for a fixed number of parallel nodes *n_nodes=10* (jobs).
-- (2) Different number of parallel nodes *n_nodes* (jobs) for fixed data size *N=100k* points and *k=8* clusters.
+1. Different data sizes *N* and number of clusters *k* for a fixed number of parallel nodes *n_nodes=10* (jobs).
+2. Different number of parallel nodes *n_nodes* (jobs) for fixed data size *N=100k* points and *k=8* clusters.
 
 (1) and (2) were run on a randomly generated dataset (see ```experiments/gendata_and_result_example.ipynb``` for details). Additionally, (2) was run on the [ULB Machine Learning Group fraud dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud) with *N=285k* points (transactions) and *k=2* clusters (fraud/not-fraud).
 
