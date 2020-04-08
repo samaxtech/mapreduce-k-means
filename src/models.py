@@ -58,8 +58,8 @@ class ParallelKMeans():
     """
 
 	# Default attributes
-	k = 5
-	n_nodes = 8
+	k = 8
+	n_nodes = 10
 	max_n_iter = 10
 	mean_change_coef = 0.05
 	means = {}
