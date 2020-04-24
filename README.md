@@ -25,7 +25,7 @@ predicted_labels = model.predict(X_test)
 ```
 
 ## Algorithm Performance
-*See ```report.pdf``` for details*
+(See ```report.pdf``` for details)
 
 ```experiments.py```contains a set of experiments to measure **total/iteration elapsed times** on:
 1. Different data sizes *N* and number of clusters *k* for a fixed number of parallel nodes *n_nodes=10* (jobs).
