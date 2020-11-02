@@ -9,6 +9,7 @@ Parallel implementation of K-means based on MapReduce, using python's multiproce
 ### Usage
 ```python
 import numpy as np
+from sklearn.model_selection import train_test_split
 from models import ParallelKMeans
 
 X, y = np.arange(25).reshape((5, 5)), np.random.randint(2, size=5)
